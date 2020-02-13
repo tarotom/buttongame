@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.Title {
+    position: absolute;
+    top: 20px;
+}
+
+.PlayerOne {
+    position: absolute;
+    left: 20px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlayerTwo {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
