@@ -7,15 +7,22 @@ function App() {
       <header className="App-header">
         <div className="Title">Button Game</div>
 
+        <div className="VerticalAlign">
+          <label>Counter</label>
+          <label></label>
+        </div>
+
         <div className="PlayerOne">
           <label>Player One</label>
           <label>Points: </label>
+          <label>Clicks till next reward: </label>
           <button>Click</button>
         </div>
 
         <div className="PlayerTwo">
           <label>Player One</label>
           <label>Points: </label>
+          <label>Clicks till next reward: </label>
           <button>Click</button>
         </div>
 
